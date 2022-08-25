@@ -1,0 +1,265 @@
+
+.bg-img-section{
+    width: 100%;
+    height: 1020px;
+    background-image: linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)),url("img/img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position:  center;
+}
+.logo-resize{
+    width: 30%;
+
+}
+.header-center-content{
+    width: 50%;
+}
+.p-30{
+    padding: 30px;
+    text-align: center;
+}
+   
+
+.middol-container{
+    padding: 30px;
+    text-align: justify;
+}
+
+.css-btn{
+    width: 100%;
+    background-color:darkslategray;
+}
+.span-text-center{
+    text-align: center;
+    display: block;
+}
+.profile-down-img{
+    width: 7%;
+    rounded-carcel
+}
+.rounded-circle{
+    height: 50px;
+    width:50px;
+    border-rad
+}
+.profile-img {
+    width: 9%;
+    height: 64%;
+    border-radius: 50%;
+}
+.costum-icon-1 {
+    height: 49px !important;
+    width: 19px !important;
+    color: #F4556F;
+}
+
+.costum-icon-2 {
+    height: 49px !important;
+    width: 19px !important;
+    color: rgb(0, 159, 0);
+}
+.costum-icon-3 {
+    height: 49px !important;
+    width: 19px !important;
+    color: #0b539a;
+}
+
+.rounded-colom-2{
+    border-radius: 10px;
+}
+
+.body-style{
+    background-color: #18191A;
+}
+
+.bg-img{
+    background-image: url("img/9.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.icon{
+    text-align: right;
+    justify-content: center;
+}
+.h2{
+    font-size: 2rem;
+}
+
+.main-section{
+    background-image: linear-gradient(to right, #505761, #3C4A3B);
+    height: 400px;
+    width: 100%;
+    position: relative;
+
+}
+.profile-bg-img{
+    background-image: url(https://media.istockphoto.com/photos/detail-of-a-laptop-keyboard-picture-id1198515525?b=1&k=20&m=1198515525&s=170667a&w=0&h=1t0fpw4rvaKSiZbClY4zjiDo84F418BEEkwKMf2pUuI=);
+    height: 400px;
+    width: 100%;
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-section{
+    position: relative;
+}
+.prifile-img-top{
+    position: absolute;
+    /* top: 50%; */
+    left: 15%;
+    bottom: -20%;
+}
+.proflie-circle-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.header {
+  background: #555;
+  color: #f1f1f1;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 33%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+
+
+
+
+
+
+/* 
+.fb-profile-block {
+    margin: auto;
+    position: relative;
+    width: 100%;
+  }
+  .cover-container{
+      background: #1E90FF;
+      background: -webkit-radial-gradient(bottom, #73D6F5 12%, #1E90FF);
+      background: radial-gradient(at bottom, #73D6F5 12%, #1E90FF)
+  }
+  .fb-profile-block-thumb{
+    display: block;
+    height: 315px;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+  }
+  .fb-profile-block-menu {
+    border: 1px solid #d3d6db;
+    border-radius: 0 0 3px 3px;
+  }
+  .profile-img a{
+      bottom: 15px;
+      box-shadow: none;
+      display: block;
+      left: 15px;
+      padding:1px;
+      position: absolute;
+      height: 160px;
+      width: 160px;
+      background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+      z-index:9;
+  }
+  .profile-img img {
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.07);
+    height:158px;
+    padding: 5px;
+    width:158px;
+  }
+  .profile-name {
+    bottom: 60px;
+    left: 200px;
+    position: absolute;
+  }
+  .profile-name h2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    max-width: 275px;
+    position: relative;
+    text-transform: uppercase;
+  }
+  .fb-profile-block-menu{
+    height: 44px;
+    position: relative;
+    width:100%;
+    overflow:hidden;
+   }
+  .block-menu {
+    clear: right;
+    padding-left: 205px;
+  }
+  .block-menu ul{
+      margin:0;
+      padding:0;
+  }
+  .block-menu ul li{
+      display:inline-block;
+  }
+  .block-menu ul li a {
+    border-right: 1px solid #e9eaed;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    height: 42px;
+    line-height: 3.0;
+    padding: 0 17px;
+    position: relative;
+    vertical-align: middle;
+    white-space: nowrap;
+    color:#4b4f56;
+    text-transform:capitalize;
+  }
+  .block-menu ul li:first-child a{
+    border-left: 1px solid #e9eaed;
+  }
+
+
+
+ */
+
+
+
+
+
+
+ /* stiky and remove scroll bar */
+ #stiky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    height: 100vh !important;
+    overflow-y: scroll;
+  }
+  #stiky::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  #stiky {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
