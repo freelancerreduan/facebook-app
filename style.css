@@ -245,21 +245,3 @@
 
 
 
- /* stiky and remove scroll bar */
- #stiky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    bottom: 0;
-    height: 100vh !important;
-    overflow-y: scroll;
-  }
-  #stiky::-webkit-scrollbar {
-    display: none;
-  }
-
-  /* Hide scrollbar for IE, Edge and Firefox */
-  #stiky {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-  }
